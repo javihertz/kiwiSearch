@@ -1,0 +1,44 @@
+.KiwiApp {
+    margin-top: 20px;
+}
+
+.row {
+    margin: 20px 0;
+}
+
+.row.SearchFlight {
+    border: 1px solid #00ad98;
+    border-radius: 15px;
+    padding: 20px;
+}
+
+.SearchFlight .form-group label {
+    margin-right: 12px; 
+}
+
+.SearchFlight .form-group  {
+    margin-right: 12px;
+    position: relative; 
+
+}
+
+.list-group.suggestion-list {
+    font-size: 12px;
+    width: 100%;
+    position: absolute;
+    z-index: 2;
+}
+
+.list-group.suggestion-list .list-group-item:hover {
+    cursor: pointer;
+    background-color: #00ad98;
+    color: #fff;
+}
+
+.form-btn {
+    position: relative;
+    left: 7px;
+    top: 2em;
+    background-color: #00ad98;
+    color: #fff;
+}
